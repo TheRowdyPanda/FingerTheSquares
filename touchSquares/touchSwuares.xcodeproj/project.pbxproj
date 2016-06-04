@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECDE80F619574C7C00864B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE80F519574C7C00864B01 /* Foundation.framework */; };
+		ECDE80F819574C7C00864B01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE80F719574C7C00864B01 /* CoreGraphics.framework */; };
+		ECDE80FA19574C7C00864B01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE80F919574C7C00864B01 /* UIKit.framework */; };
+		ECDE80FC19574C7C00864B01 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE80FB19574C7C00864B01 /* SpriteKit.framework */; };
+		ECDE810219574C7C00864B01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECDE810019574C7C00864B01 /* InfoPlist.strings */; };
+		ECDE810419574C7C00864B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE810319574C7C00864B01 /* main.m */; };
+		ECDE810819574C7C00864B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE810719574C7C00864B01 /* AppDelegate.m */; };
+		ECDE810B19574C7D00864B01 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDE810919574C7D00864B01 /* Main_iPhone.storyboard */; };
+		ECDE810E19574C7D00864B01 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDE810C19574C7D00864B01 /* Main_iPad.storyboard */; };
+		ECDE811119574C7D00864B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE811019574C7D00864B01 /* ViewController.m */; };
+		ECDE811419574C7D00864B01 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE811319574C7D00864B01 /* MyScene.m */; };
+		ECDE811819574C7D00864B01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDE811719574C7D00864B01 /* Images.xcassets */; };
+		ECDE811F19574C7D00864B01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE811E19574C7D00864B01 /* XCTest.framework */; };
+		ECDE812019574C7D00864B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE80F519574C7C00864B01 /* Foundation.framework */; };
+		ECDE812119574C7D00864B01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDE80F919574C7C00864B01 /* UIKit.framework */; };
+		ECDE812919574C7D00864B01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECDE812719574C7D00864B01 /* InfoPlist.strings */; };
+		ECDE812B19574C7D00864B01 /* touchSwuaresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDE812A19574C7D00864B01 /* touchSwuaresTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECDE812219574C7D00864B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDE80EA19574C7C00864B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDE80F119574C7C00864B01;
+			remoteInfo = touchSwuares;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECDE80F219574C7C00864B01 /* touchSwuares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchSwuares.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDE80F519574C7C00864B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECDE80F719574C7C00864B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECDE80F919574C7C00864B01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECDE80FB19574C7C00864B01 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		ECDE80FF19574C7C00864B01 /* touchSwuares-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchSwuares-Info.plist"; sourceTree = "<group>"; };
+		ECDE810119574C7C00864B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECDE810319574C7C00864B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECDE810519574C7C00864B01 /* touchSwuares-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchSwuares-Prefix.pch"; sourceTree = "<group>"; };
+		ECDE810619574C7C00864B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECDE810719574C7C00864B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECDE810A19574C7D00864B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ECDE810D19574C7D00864B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ECDE810F19574C7D00864B01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECDE811019574C7D00864B01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECDE811219574C7D00864B01 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		ECDE811319574C7D00864B01 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		ECDE811719574C7D00864B01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECDE811D19574C7D00864B01 /* touchSwuaresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = touchSwuaresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDE811E19574C7D00864B01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECDE812619574C7D00864B01 /* touchSwuaresTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchSwuaresTests-Info.plist"; sourceTree = "<group>"; };
+		ECDE812819574C7D00864B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECDE812A19574C7D00864B01 /* touchSwuaresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = touchSwuaresTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDE80EF19574C7C00864B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE80F819574C7C00864B01 /* CoreGraphics.framework in Frameworks */,
+				ECDE80FA19574C7C00864B01 /* UIKit.framework in Frameworks */,
+				ECDE80FC19574C7C00864B01 /* SpriteKit.framework in Frameworks */,
+				ECDE80F619574C7C00864B01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE811A19574C7D00864B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE811F19574C7D00864B01 /* XCTest.framework in Frameworks */,
+				ECDE812119574C7D00864B01 /* UIKit.framework in Frameworks */,
+				ECDE812019574C7D00864B01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDE80E919574C7C00864B01 = {
+			isa = PBXGroup;
+			children = (
+				ECDE80FD19574C7C00864B01 /* touchSwuares */,
+				ECDE812419574C7D00864B01 /* touchSwuaresTests */,
+				ECDE80F419574C7C00864B01 /* Frameworks */,
+				ECDE80F319574C7C00864B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDE80F319574C7C00864B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE80F219574C7C00864B01 /* touchSwuares.app */,
+				ECDE811D19574C7D00864B01 /* touchSwuaresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDE80F419574C7C00864B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE80F519574C7C00864B01 /* Foundation.framework */,
+				ECDE80F719574C7C00864B01 /* CoreGraphics.framework */,
+				ECDE80F919574C7C00864B01 /* UIKit.framework */,
+				ECDE80FB19574C7C00864B01 /* SpriteKit.framework */,
+				ECDE811E19574C7D00864B01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECDE80FD19574C7C00864B01 /* touchSwuares */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE810619574C7C00864B01 /* AppDelegate.h */,
+				ECDE810719574C7C00864B01 /* AppDelegate.m */,
+				ECDE810919574C7D00864B01 /* Main_iPhone.storyboard */,
+				ECDE810C19574C7D00864B01 /* Main_iPad.storyboard */,
+				ECDE810F19574C7D00864B01 /* ViewController.h */,
+				ECDE811019574C7D00864B01 /* ViewController.m */,
+				ECDE811219574C7D00864B01 /* MyScene.h */,
+				ECDE811319574C7D00864B01 /* MyScene.m */,
+				ECDE811719574C7D00864B01 /* Images.xcassets */,
+				ECDE80FE19574C7C00864B01 /* Supporting Files */,
+			);
+			path = touchSwuares;
+			sourceTree = "<group>";
+		};
+		ECDE80FE19574C7C00864B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE80FF19574C7C00864B01 /* touchSwuares-Info.plist */,
+				ECDE810019574C7C00864B01 /* InfoPlist.strings */,
+				ECDE810319574C7C00864B01 /* main.m */,
+				ECDE810519574C7C00864B01 /* touchSwuares-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECDE812419574C7D00864B01 /* touchSwuaresTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE812A19574C7D00864B01 /* touchSwuaresTests.m */,
+				ECDE812519574C7D00864B01 /* Supporting Files */,
+			);
+			path = touchSwuaresTests;
+			sourceTree = "<group>";
+		};
+		ECDE812519574C7D00864B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE812619574C7D00864B01 /* touchSwuaresTests-Info.plist */,
+				ECDE812719574C7D00864B01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDE80F119574C7C00864B01 /* touchSwuares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDE812E19574C7D00864B01 /* Build configuration list for PBXNativeTarget "touchSwuares" */;
+			buildPhases = (
+				ECDE80EE19574C7C00864B01 /* Sources */,
+				ECDE80EF19574C7C00864B01 /* Frameworks */,
+				ECDE80F019574C7C00864B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchSwuares;
+			productName = touchSwuares;
+			productReference = ECDE80F219574C7C00864B01 /* touchSwuares.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECDE811C19574C7D00864B01 /* touchSwuaresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDE813119574C7D00864B01 /* Build configuration list for PBXNativeTarget "touchSwuaresTests" */;
+			buildPhases = (
+				ECDE811919574C7D00864B01 /* Sources */,
+				ECDE811A19574C7D00864B01 /* Frameworks */,
+				ECDE811B19574C7D00864B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDE812319574C7D00864B01 /* PBXTargetDependency */,
+			);
+			name = touchSwuaresTests;
+			productName = touchSwuaresTests;
+			productReference = ECDE811D19574C7D00864B01 /* touchSwuaresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDE80EA19574C7C00864B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rijul Gupta";
+				TargetAttributes = {
+					ECDE811C19574C7D00864B01 = {
+						TestTargetID = ECDE80F119574C7C00864B01;
+					};
+				};
+			};
+			buildConfigurationList = ECDE80ED19574C7C00864B01 /* Build configuration list for PBXProject "touchSwuares" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDE80E919574C7C00864B01;
+			productRefGroup = ECDE80F319574C7C00864B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDE80F119574C7C00864B01 /* touchSwuares */,
+				ECDE811C19574C7D00864B01 /* touchSwuaresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDE80F019574C7C00864B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE811819574C7D00864B01 /* Images.xcassets in Resources */,
+				ECDE810E19574C7D00864B01 /* Main_iPad.storyboard in Resources */,
+				ECDE810B19574C7D00864B01 /* Main_iPhone.storyboard in Resources */,
+				ECDE810219574C7C00864B01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE811B19574C7D00864B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE812919574C7D00864B01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDE80EE19574C7C00864B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE811419574C7D00864B01 /* MyScene.m in Sources */,
+				ECDE811119574C7D00864B01 /* ViewController.m in Sources */,
+				ECDE810819574C7C00864B01 /* AppDelegate.m in Sources */,
+				ECDE810419574C7C00864B01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE811919574C7D00864B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE812B19574C7D00864B01 /* touchSwuaresTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDE812319574C7D00864B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDE80F119574C7C00864B01 /* touchSwuares */;
+			targetProxy = ECDE812219574C7D00864B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECDE810019574C7C00864B01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDE810119574C7C00864B01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECDE810919574C7D00864B01 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDE810A19574C7D00864B01 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDE810C19574C7D00864B01 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDE810D19574C7D00864B01 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDE812719574C7D00864B01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDE812819574C7D00864B01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDE812C19574C7D00864B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECDE812D19574C7D00864B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDE812F19574C7D00864B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchSwuares/touchSwuares-Prefix.pch";
+				INFOPLIST_FILE = "touchSwuares/touchSwuares-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECDE813019574C7D00864B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchSwuares/touchSwuares-Prefix.pch";
+				INFOPLIST_FILE = "touchSwuares/touchSwuares-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECDE813219574C7D00864B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/touchSwuares.app/touchSwuares";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchSwuares/touchSwuares-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "touchSwuaresTests/touchSwuaresTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECDE813319574C7D00864B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/touchSwuares.app/touchSwuares";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touchSwuares/touchSwuares-Prefix.pch";
+				INFOPLIST_FILE = "touchSwuaresTests/touchSwuaresTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDE80ED19574C7C00864B01 /* Build configuration list for PBXProject "touchSwuares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDE812C19574C7D00864B01 /* Debug */,
+				ECDE812D19574C7D00864B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDE812E19574C7D00864B01 /* Build configuration list for PBXNativeTarget "touchSwuares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDE812F19574C7D00864B01 /* Debug */,
+				ECDE813019574C7D00864B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDE813119574C7D00864B01 /* Build configuration list for PBXNativeTarget "touchSwuaresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDE813219574C7D00864B01 /* Debug */,
+				ECDE813319574C7D00864B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDE80EA19574C7C00864B01 /* Project object */;
+}
